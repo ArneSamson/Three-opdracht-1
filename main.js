@@ -204,7 +204,7 @@ platform.position.z = -18.5;
 scene.add(platform);
 
 //add portal gltf model
-gltfLoader.load('/public/models/portal.gltf', (gltf) => {
+gltfLoader.load('models/portal.gltf', (gltf) => {
     let portal = gltf.scene;
     portal.position.y = 4;
     portal.position.x = 0;
